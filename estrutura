@@ -1,32 +1,57 @@
-ethics-in-ai-analysis/
+Análise de Dados sobre Ética em Inteligência Artificial
 │
-├── data/
-│   ├── raw/                  # Dados brutos fornecidos
-│   ├── processed/            # Dados processados para análise
-│   └── README.md             # Instruções sobre os dados
+├── 1. Introdução
+│   ├── Descrição do Projeto
+│   ├── Objetivos
+│   └── Conjunto de Dados
 │
-├── notebooks/
-│   ├── 01_EDA.ipynb          # Análise Exploratória de Dados
-│   ├── 02_Tendencies.ipynb    # Identificação de Tendências
-│   ├── 03_Topics.ipynb        # Principais Tópicos
-│   ├── 04_Sentiment.ipynb     # Análise de Sentimento
-│   └── 05_Visualization.ipynb # Visualização de Dados
+├── 2. Análise Exploratória de Dados (AED)
+│   ├── Carregamento dos Dados
+│   ├── Limpeza e Pré-processamento
+│   ├── Estatísticas Descritivas
+│   └── Visualização Inicial
 │
-├── src/
-│   ├── __init__.py           # Inicialização do pacote
-│   ├── data_preprocessing.py # Scripts de pré-processamento dos dados
-│   ├── trend_analysis.py     # Scripts para identificação de tendências
-│   ├── topic_extraction.py   # Scripts para extração de tópicos
-│   ├── sentiment_analysis.py # Scripts para análise de sentimento
-│   ├── visualization.py      # Scripts para visualização de dados
-│   └── utils.py              # Funções utilitárias
+├── 3. Identificação de Tendências
+│   ├── Análise Temporal
+│   ├── Identificação de Padrões
+│   └── Análise de Mudanças ao Longo do Tempo
 │
-├── reports/
-│   ├── figures/              # Figuras e gráficos gerados
-│   ├── final_report.md       # Relatório final em Markdown
-│   └── README.md             # Instruções sobre os relatórios
+├── 4. Principais Tópicos
+│   ├── Extração de Tópicos
+│   ├── Análise de Frequência de Palavras
+│   └── Relevância dos Tópicos
 │
-├── requirements.txt          # Dependências do projeto
-├── .gitignore                # Arquivo para ignorar arquivos no Git
-├── README.md                 # Documentação do projeto
-└── main.py                   # Script principal para execução
+├── 5. Análise de Sentimento
+│   ├── Pré-processamento de Texto
+│   ├── Análise de Sentimento
+│   ├── Classificação de Sentimentos
+│   └── Interpretação dos Resultados
+│
+├── 6. Visualização de Dados
+│   ├── Gráficos de Tendências
+│   ├── Mapas de Calor
+│   ├── Nuvens de Palavras
+│   └── Outros Gráficos Relevantes
+│
+├── 7. Relatório Final
+│   ├── Sumário dos Resultados
+│   ├── Discussão dos Insights
+│   ├── Conclusões
+│   └── Recomendações
+│
+├── 8. Código e Scripts
+│   ├── analise_exploratoria.py
+│   ├── identificacao_tendencias.py
+│   ├── principais_topicos.py
+│   ├── analise_sentimento.py
+│   └── visualizacao_dados.py
+│
+├── 9. Documentação
+│   ├── README.md
+│   ├── LICENSE
+│   └── .gitignore
+│
+└── 10. Recursos Adicionais
+    ├── Dados Brutos
+    ├── Relatórios Intermediários
+    └── Notebooks Jupyter (se aplicável)
