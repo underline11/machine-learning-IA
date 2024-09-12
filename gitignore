@@ -1,36 +1,47 @@
+
+---
+
+### .gitignore
+
+```gitignore
 # Python
 *.pyc
 *.pyo
 *.pyd
 __pycache__/
-*.pkl
-*.sqlite3
+env/
+venv/
+ENV/
+*.egg-info/
 
 # Jupyter Notebook
 .ipynb_checkpoints/
 
-# Data files
-data/
+# Data
 *.csv
+*.tsv
 
-# Virtual Environment
-venv/
-.env
+# Visualizações
+*.png
+*.jpg
+*.jpeg
+*.pdf
 
 # Logs
 *.log
 
-# Visualizations
-*.png
-*.jpg
-*.jpeg
-*.svg
-*.pdf
+# Environment files
+.env
 
 # IDEs
 .vscode/
 .idea/
+*.suo
+*.ntvs_analysis.dat
+*.ncb
+*.suo
+*.suo
 
-# System files
+# System Files
 .DS_Store
 Thumbs.db
