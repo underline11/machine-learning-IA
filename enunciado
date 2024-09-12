@@ -1,0 +1,13 @@
+Enunciado
+Título: Análise de Dados sobre Ética em Inteligência Artificial
+
+Objetivo: O objetivo deste projeto é realizar uma análise aprofundada dos dados fornecidos sobre ética em Inteligência Artificial (IA). A análise tem como foco entender as tendências, os principais temas e as preocupações relacionadas à ética em IA com base em artigos disponíveis. O projeto abordará os seguintes problemas:
+
+Análise Exploratória de Dados (AED): Explorar e entender a estrutura e as características do conjunto de dados.
+Identificação de Tendências: Identificar e analisar as tendências ao longo do tempo em relação aos temas discutidos nos artigos sobre ética em IA.
+Principais Tópicos: Identificar os principais tópicos discutidos nos artigos e avaliar sua relevância.
+Análise de Sentimento: Realizar uma análise de sentimento para entender a percepção geral em relação à ética em IA.
+Visualização de Dados: Criar visualizações informativas para comunicar os insights obtidos de forma clara e eficaz.
+Metodologia: O projeto envolverá a utilização de técnicas de análise de dados, processamento de linguagem natural e visualização para alcançar os objetivos estabelecidos.
+
+Ferramentas e Tecnologias: Python, Pandas, Numpy, Matplotlib, Seaborn, NLTK ou TextBlob (para análise de sentimento).
