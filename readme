@@ -1,36 +1,42 @@
 # Análise de Dados sobre Ética em Inteligência Artificial
 
-## Objetivo
+## Descrição
 
-Este projeto tem como objetivo realizar uma análise aprofundada dos dados sobre ética em Inteligência Artificial (IA). A análise visa extrair insights relevantes sobre as tendências, os principais temas e as preocupações relacionadas à ética em IA com base em um conjunto de dados fornecido.
+Este projeto realiza uma análise detalhada dos dados sobre ética em Inteligência Artificial (IA) com base em um conjunto de artigos científicos. O objetivo é extrair insights relevantes sobre as tendências, principais temas e preocupações relacionadas à ética em IA. A análise inclui a Análise Exploratória de Dados (AED), identificação de tendências, principais tópicos, análise de sentimento e visualização de dados.
 
-## Problemas a Serem Resolvidos
+## Objetivos
 
-1. **Análise Exploratória de Dados (AED):** Explorar e entender a estrutura e as características do conjunto de dados.
-2. **Identificação de Tendências:** Identificar e analisar as tendências ao longo do tempo em relação aos temas discutidos nos artigos sobre ética em IA.
-3. **Principais Tópicos:** Identificar os principais tópicos discutidos e sua relevância.
-4. **Análise de Sentimento:** Realizar uma análise de sentimento para entender a percepção geral em relação à ética em IA.
+1. **Análise Exploratória de Dados (AED):** Explorar a estrutura e características dos dados.
+2. **Identificação de Tendências:** Analisar a evolução dos temas discutidos ao longo do tempo.
+3. **Principais Tópicos:** Identificar e avaliar os principais tópicos discutidos nos artigos.
+4. **Análise de Sentimento:** Compreender a percepção geral sobre a ética em IA.
 5. **Visualização de Dados:** Criar visualizações informativas para comunicar os insights obtidos.
 
-## Metodologia
+## Conjunto de Dados
 
-- **Exploração dos Dados:** Utilização de técnicas de análise exploratória para compreender a estrutura e as características do conjunto de dados.
-- **Identificação de Tendências:** Análise temporal para identificar tendências e padrões nos temas discutidos.
-- **Principais Tópicos:** Extração e análise dos principais tópicos abordados nos artigos.
-- **Análise de Sentimento:** Aplicação de técnicas de processamento de linguagem natural para avaliar a percepção geral.
-- **Visualização de Dados:** Criação de gráficos e outras visualizações para representar os insights obtidos.
+O conjunto de dados contém informações sobre artigos científicos relacionados à ética em IA. As principais colunas incluem:
 
-## Ferramentas e Tecnologias
+- `arXiv_reference`: Referência do artigo no arXiv
+- `paper_arXiv_link`: Link para o artigo no arXiv
+- `paper_title`: Título do artigo
+- `paper_authors`: Autores do artigo
+- `paper_subject`: Assunto do artigo
+- `paper_abstract`: Resumo do artigo
+- `paper_doi_link`: Link para o DOI do artigo
+- `paper_number_of_pages`: Número de páginas do artigo
+- `paper_version_release_date`: Data de lançamento da versão do artigo
+- `paper_ondatabase_since`: Data em que o artigo foi adicionado ao banco de dados
+- `paper_ondatabase_latest`: Data da última atualização do artigo no banco de dados
 
-- Python
-- Pandas
-- Numpy
-- Matplotlib
-- Seaborn
-- NLTK ou TextBlob
+## Requisitos
 
-## Como Executar o Projeto
+- Python 3.x
+- Bibliotecas: pandas, numpy, matplotlib, seaborn, nltk (ou outra biblioteca de NLP)
 
-1. Clone o repositório:
-   ```bash
-   git clone <URL-do-repositório>
+## Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/seuusuario/etica-em-ia.git
+cd etica-em-ia
