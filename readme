@@ -1,0 +1,36 @@
+# Análise de Dados sobre Ética em Inteligência Artificial
+
+## Objetivo
+
+Este projeto tem como objetivo realizar uma análise aprofundada dos dados sobre ética em Inteligência Artificial (IA). A análise visa extrair insights relevantes sobre as tendências, os principais temas e as preocupações relacionadas à ética em IA com base em um conjunto de dados fornecido.
+
+## Problemas a Serem Resolvidos
+
+1. **Análise Exploratória de Dados (AED):** Explorar e entender a estrutura e as características do conjunto de dados.
+2. **Identificação de Tendências:** Identificar e analisar as tendências ao longo do tempo em relação aos temas discutidos nos artigos sobre ética em IA.
+3. **Principais Tópicos:** Identificar os principais tópicos discutidos e sua relevância.
+4. **Análise de Sentimento:** Realizar uma análise de sentimento para entender a percepção geral em relação à ética em IA.
+5. **Visualização de Dados:** Criar visualizações informativas para comunicar os insights obtidos.
+
+## Metodologia
+
+- **Exploração dos Dados:** Utilização de técnicas de análise exploratória para compreender a estrutura e as características do conjunto de dados.
+- **Identificação de Tendências:** Análise temporal para identificar tendências e padrões nos temas discutidos.
+- **Principais Tópicos:** Extração e análise dos principais tópicos abordados nos artigos.
+- **Análise de Sentimento:** Aplicação de técnicas de processamento de linguagem natural para avaliar a percepção geral.
+- **Visualização de Dados:** Criação de gráficos e outras visualizações para representar os insights obtidos.
+
+## Ferramentas e Tecnologias
+
+- Python
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
+- NLTK ou TextBlob
+
+## Como Executar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone <URL-do-repositório>
