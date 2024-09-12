@@ -1,0 +1,43 @@
+Instruções de Execução
+1. Clone o Repositório
+Primeiro, clone o repositório do projeto para o seu ambiente local:
+git clone <URL-do-repositório>
+cd ethics-in-ai-analysis
+2. Crie e Ative um Ambiente Virtual
+É uma boa prática usar um ambiente virtual para gerenciar as dependências do projeto. Crie e ative um ambiente virtual com os seguintes comandos:
+# Criar ambiente virtual
+python -m venv venv
+
+# Ativar ambiente virtual
+# No Windows
+venv\Scripts\activate
+# No macOS/Linux
+source venv/bin/activate
+3. Instalar as Dependências
+Instale as dependências do projeto específico no requirements.txt:
+pip install -r requirements.txt
+4. Preparar os Dados
+Coloque os arquivos de dados fornecidos na pasta data/raw/. -se de que os dados não contêm formato adequado para análise.
+
+5. Executar Notebooks Jupyter
+Os notebooks Jupyter contêm uma análise passo a passo. Você pode repeti-los para explorar os dados e gerar insights:
+jupyter notebook
+Navegue até a pasta notebooks/e abra os cadernos:
+
+01_EDA.ipynb: Para análise exploratória dos dados.
+02_Tendencies.ipynb: Para identificar tendências ao longo do tempo.
+03_Topics.ipynb: Para extrair e analisar os principais tópicos.
+04_Sentiment.ipynb: Para realizar uma análise de sentimento.
+05_Visualization.ipynb: Para criar visualizações dos dados.
+6. Executar o Script Principal
+Se desejar executar uma análise como um script Python, use o script principal main.py. Se os dados estiverem preparados, certifique-se de que o ambiente virtual esteja ativo:
+python main.py
+7. Gerar relatórios e visualizações
+Os relatórios finais e visualizações gerados durante a análise serão salvos na pasta reports/figures/e no arquivo reports/final_report.md. Verifique essa pasta para acessar gráficos e o relatório final.
+
+8. Contribuir para o Projeto
+Se você deseja contribuir para o projeto, siga as melhores práticas para colaboração no GitHub. Crie um branch para suas alterações, faça commit de suas mudanças e envie um pull request para revisão.
+
+9. Desativar o Ambiente Virtual
+Ao encerrar o trabalho no projeto, você pode desativar o ambiente virtual com o comando:
+deactivate
