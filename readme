@@ -1,42 +1,17 @@
-# Análise de Dados sobre Ética em Inteligência Artificial
+#  Automated Data Explorer v1.0
 
-## Descrição
+Este projeto (#39 de 105) é um framework de análise exploratória automatizada que processa datasets remotos e gera insights visuais instantâneos.
 
-Este projeto realiza uma análise detalhada dos dados sobre ética em Inteligência Artificial (IA) com base em um conjunto de artigos científicos. O objetivo é extrair insights relevantes sobre as tendências, principais temas e preocupações relacionadas à ética em IA. A análise inclui a Análise Exploratória de Dados (AED), identificação de tendências, principais tópicos, análise de sentimento e visualização de dados.
+##  Funcionalidades de Elite
+- **Drive Connector:** Engine capaz de extrair e baixar dados diretamente do Google Drive via ID de arquivo.
+- **Auto-Discovery:** Identificação automática de tipos de dados (Numéricos vs. Categóricos) para seleção de gráficos.
+- **Statistical Suite:** Geração automática de Histogramas, Boxplots, Scatter Plots e Matrizes de Correlação (Heatmaps).
+- **Multi-Source:** Processamento em lote (batch) de múltiplas URLs de uma só vez.
 
-## Objetivos
+##  Stack Tecnológica
+- **Pandas & NumPy:** Processamento de matrizes e tabelas.
+- **Seaborn & Matplotlib:** Visualização estatística avançada.
+- **Requests & StringIO:** Comunicação com APIs web e manipulação de buffers de memória.
 
-1. **Análise Exploratória de Dados (AED):** Explorar a estrutura e características dos dados.
-2. **Identificação de Tendências:** Analisar a evolução dos temas discutidos ao longo do tempo.
-3. **Principais Tópicos:** Identificar e avaliar os principais tópicos discutidos nos artigos.
-4. **Análise de Sentimento:** Compreender a percepção geral sobre a ética em IA.
-5. **Visualização de Dados:** Criar visualizações informativas para comunicar os insights obtidos.
-
-## Conjunto de Dados
-
-O conjunto de dados contém informações sobre artigos científicos relacionados à ética em IA. As principais colunas incluem:
-
-- `arXiv_reference`: Referência do artigo no arXiv
-- `paper_arXiv_link`: Link para o artigo no arXiv
-- `paper_title`: Título do artigo
-- `paper_authors`: Autores do artigo
-- `paper_subject`: Assunto do artigo
-- `paper_abstract`: Resumo do artigo
-- `paper_doi_link`: Link para o DOI do artigo
-- `paper_number_of_pages`: Número de páginas do artigo
-- `paper_version_release_date`: Data de lançamento da versão do artigo
-- `paper_ondatabase_since`: Data em que o artigo foi adicionado ao banco de dados
-- `paper_ondatabase_latest`: Data da última atualização do artigo no banco de dados
-
-## Requisitos
-
-- Python 3.x
-- Bibliotecas: pandas, numpy, matplotlib, seaborn, nltk (ou outra biblioteca de NLP)
-
-## Instalação
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/seuusuario/etica-em-ia.git
-cd etica-em-ia
+##  Como usar
+Basta adicionar as URLs dos seus arquivos CSV na lista `urls` e executar o script. O sistema cuidará de toda a limpeza e visualização.
